@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DetailDialog</class>
+ <widget class="QDialog" name="DetailDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Detallar</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_door_count">
+     <property name="text">
+      <string>Qapı sayı:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QSpinBox" name="spinDoorCount"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_door_width">
+     <property name="text">
+      <string>Qapı eni (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QDoubleSpinBox" name="spinDoorWidth"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_door_height">
+     <property name="text">
+      <string>Qapı uzunluğu (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QDoubleSpinBox" name="spinDoorHeight"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_window_count">
+     <property name="text">
+      <string>Pəncərə sayı:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QSpinBox" name="spinWindowCount"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_window_width">
+     <property name="text">
+      <string>Pəncərə eni (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QDoubleSpinBox" name="spinWindowWidth"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_window_height">
+     <property name="text">
+      <string>Pəncərə uzunluğu (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QDoubleSpinBox" name="spinWindowHeight"/>
+   </item>
+   <item row="6" column="0" colspan="2">
+    <widget class="QPushButton" name="btnCalculate">
+     <property name="text">
+      <string>Hesabla</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0" colspan="2">
+    <widget class="QLabel" name="labelResult">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
